@@ -2,6 +2,10 @@
 .vscode
 .DS_Store
 
+# named executables
+concurrency/conds
+concurrency/bb
+
 # Prerequisites
 *.d
 
