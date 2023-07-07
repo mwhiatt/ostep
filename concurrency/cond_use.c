@@ -35,7 +35,7 @@ int main (int argc, char *argv[]) {
   pthread_mutex_init(&mutex, NULL);
   pthread_cond_init(&cond, NULL);
   pthread_t p;
-  pthread_create(&p, NULL, &child, NULL);
+  pthread_create(&p, NULL, child, NULL);
   my_join();
   pthread_cond_destroy(&cond);
   pthread_mutex_destroy(&mutex);
